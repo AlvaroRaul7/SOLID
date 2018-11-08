@@ -3,21 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Postres;
+package Postres_bien;
+
+
 
 import java.util.ArrayList;
-import Otros.Aderezo;
+import Otros_bien.Aderezo;
 
 /**
  *
  * @author Pedro Mendoza
  */
-public class Helado{
+public class Pastel{
     private String sabor;
     private double precioParcial;
     private ArrayList<Aderezo> aderezos;
     
-    public Helado(String sabor){
+    public Pastel(String sabor){
         aderezos= new ArrayList<>();
         this.sabor=sabor;
     }
@@ -34,11 +36,8 @@ public class Helado{
 
     @Override
     public String toString() {
-        return "Helado{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
+        return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
     }
-    
-    
-    
     
     
 }

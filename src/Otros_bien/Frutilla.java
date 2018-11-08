@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Otros;
+package Otros_bien;
+
+
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Administrador
  */
-public enum Aderezo {
-    MALVAVISCOS,GRAGEAS,CHISPAS,FRUTILLA,CREMA
+public class Frutilla extends Aderezo{
     
 }

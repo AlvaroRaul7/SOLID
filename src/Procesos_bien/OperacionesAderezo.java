@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Procesos;
+package Procesos_bien;
 
-import Otros.Aderezo;
-import Postres.Pastel;
-import Postres.Helado;
+
+import Otros_bien.Aderezo;
+import Postres_bien.Pastel;
+import Postres_bien.Helado;
 
 /**
  *

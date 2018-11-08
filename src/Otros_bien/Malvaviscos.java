@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Leche;
+package Otros_bien;
+
+
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Administrador
  */
-public class LecheDeslactosada{
-
-    public void usar() {
-        //UsandoLecheDeslactosada
-    }
+public class Malvaviscos extends Aderezo{
     
 }
