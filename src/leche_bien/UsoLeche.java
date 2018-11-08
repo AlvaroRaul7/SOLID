@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Leche;
+package leche_bien;
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Administrador
  */
-public class LecheDescremada  {
-
-    
-    public void usar() {
-       
-    }
-
-   
-    
-    
+public interface UsoLeche {
+   public void usar();
 }
