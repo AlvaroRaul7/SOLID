@@ -11,4 +11,9 @@ package leche_bien;
  */
 public class LecheDeslactosada implements UsoLeche{
 
+    @Override
+    public void usar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

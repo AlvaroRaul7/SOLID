@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Otros_bien;
-
-
+package Leche;
 
 /**
  *
  * @author Pedro Mendoza
  */
-public abstract class Aderezo {
-    //MALVAVISCOS,GRAGEAS,CHISPAS,FRUTILLA,CREMA
+public class LecheDeslactosada{
+
+    public void usar() {
+        //UsandoLecheDeslactosada
+    }
     
 }
