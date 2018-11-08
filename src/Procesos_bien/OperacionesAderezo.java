@@ -5,38 +5,17 @@
  */
 package Procesos_bien;
 
-<<<<<<< HEAD
-import Procesos.*;
-import Otros.Aderezo;
-import Postres.Pastel;
-import Postres.Helado;
-=======
-
 import Otros_bien.Aderezo;
-import Postres_bien.Pastel;
-import Postres_bien.Helado;
->>>>>>> 65ed5754bc3bbe2008d6e67301538518a247a874
+import Postres.Helado;
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Lindthon Iparreño
  */
 public class OperacionesAderezo {
     
-    public static void anadirAderezoHelado(Helado helado,Aderezo aderezo){
-        helado.getAderezos().add(aderezo);
-    }
-    
-    public static void quitarAderezoHelado(Helado helado,Aderezo aderezo){
-        helado.getAderezos().remove(aderezo);
-    }
-    
-    public static void anadirAderezoPastel(Pastel pastel,Aderezo aderezo){
-        pastel.getAderezos().add(aderezo);
-    }
-    
-    public static void quitarAderezoPastel(Pastel pastel,Aderezo aderezo){
-        pastel.getAderezos().remove(aderezo);
-    }
-    
+    /*public static void anadirAderezo(Postre postre,Aderezo aderezo){
+        postre.getAderezos().add(aderezo);
+    }    
+    */
 }

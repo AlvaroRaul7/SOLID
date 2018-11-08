@@ -5,23 +5,25 @@
  */
 package Procesos_bien;
 
-import Procesos.*;
-import Leche.LecheDeslactosada;
-import Leche.LecheDescremada;
+import leche_bien.UsoLeche;
+
+
+
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Lindthon Iparreño
  */
 public class CambioLeche {
     
-    public void cambiarTipoLecheDescremada(){
-        LecheDescremada ldescrem= new LecheDescremada();
-        ldescrem.usar();
+    private UsoLeche _leche;
+    
+    public CambioLeche(UsoLeche leche){
+        _leche=leche;
+    }    
+    
+    public void cambiarTipoLeche(){        
+        _leche.usar();
     }
     
-    public void cambiarTipoLecheDeslactosada(){
-        LecheDeslactosada ldeslac= new LecheDeslactosada();
-        ldeslac.usar();
-    }    
 }
