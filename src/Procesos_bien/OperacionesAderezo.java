@@ -5,10 +5,17 @@
  */
 package Procesos_bien;
 
+<<<<<<< HEAD
 import Procesos.*;
 import Otros.Aderezo;
 import Postres.Pastel;
 import Postres.Helado;
+=======
+
+import Otros_bien.Aderezo;
+import Postres_bien.Pastel;
+import Postres_bien.Helado;
+>>>>>>> 65ed5754bc3bbe2008d6e67301538518a247a874
 
 /**
  *
