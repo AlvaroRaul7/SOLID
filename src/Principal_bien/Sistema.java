@@ -18,7 +18,6 @@ public class Sistema {
         // a ambos agregarles CREMA y FRUTILLAS
         
         // Producir Helado
-        
         Helados helado_vainilla = new Helados("Vainilla");
         OperacionesAderezo.anadirAderezo(helado_vainilla, new Crema());
         OperacionesAderezo.anadirAderezo(helado_vainilla, new Frutilla());
