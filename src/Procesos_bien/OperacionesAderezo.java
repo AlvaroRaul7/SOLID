@@ -6,7 +6,7 @@
 package Procesos_bien;
 
 import Otros_bien.Aderezo;
-import Postres.Helado;
+import Postres_bien.Postres;
 
 /**
  *
@@ -14,8 +14,12 @@ import Postres.Helado;
  */
 public class OperacionesAderezo {
     
-    /*public static void anadirAderezo(Postre postre,Aderezo aderezo){
+    public static void anadirAderezo(Postres postre,Aderezo aderezo){
         postre.getAderezos().add(aderezo);
-    }    
-    */
+    }
+    
+    public static void quitarAderezo(Postres postre,Aderezo aderezo){
+        postre.getAderezos().remove(aderezo);
+    }
+    
 }
