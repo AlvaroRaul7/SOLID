@@ -5,7 +5,7 @@
  */
 package Postres_bien;
 
-import Otros.Aderezo;
+import Otros_bien.Aderezo;
 import java.util.ArrayList;
 
 /**
